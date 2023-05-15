@@ -1,0 +1,221 @@
+@import url(https://fonts.googleapis.com/css2?family=Ruda&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap);
+
+
+
+
+body{
+    font-family: 'Roboto','sans-seriff';
+}
+
+
+.navigation__bar{
+    height:2.8rem;
+    width: auto;
+    display:flex;
+    position: relative;
+    justify-content: space-between;
+    z-index: 1000;
+    border-bottom-color:darkgrey;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+}
+
+  .site__owner{
+    display:block;
+    display: flex;
+    align-items: center;
+    margin-left:4.5rem;
+    font-size: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .nav__links{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 3.5rem;
+    margin-right: 2rem;
+  }
+
+  .nav__url{
+    text-decoration: none;
+  }
+
+  .nav__url:hover{
+    border:rgba(119, 136, 153, 0.714);
+    background-color: slategray;
+    color:white;
+    padding: 0.3rem 0.4rem;
+    border-radius: 2px;
+    transition: 0.2s;
+  }
+
+
+
+
+
+
+
+
+  #section-1{
+    height:92vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    margin-top: 2vh;
+  }
+
+  .intro__sec1{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    
+    min-width: 40rem;
+  }
+  .intro__para {
+    font-size: 4.8rem;
+    line-height: 1.8rem;
+  }
+
+  #sub-intro{
+    font-size: 1.5rem;
+    color: rgb(104, 96, 96);
+  }
+
+  .tech__stack div{
+    display: inline-flex;
+    font-family: 'Ruda';
+    font-size: 15px;
+    border-color: black;
+    border-style: solid;
+    padding:10px 15px;
+    border-radius: 10px;
+    margin-right: 10px;
+    color:white;
+  }
+
+  #tech1{
+    background-color:rgb(241, 120, 72);
+  }
+  #tech2{
+    background-color: gray;
+  }
+  #tech3{
+    background-color: lightslategray;
+  }
+  #tech4{
+    background-color: steelblue;
+  }
+
+  .site__links{
+    display: inline-flex;
+    gap: 1.5rem;
+    margin-top: 1.2rem;
+    margin-left: 1.8rem;
+  }
+  .links__icon{
+    width: 1.8rem;
+  }
+
+
+
+  .intro__img{
+    max-width: 100%;
+    height: auto;
+  }
+
+
+  #resume-btn{
+    background-color:rgb(240, 103, 103);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:white;
+    font-size: 0.9rem;
+    padding:0.5rem 0.8rem;
+    margin-top:2rem;
+    margin-left: 3rem;
+    border-radius: 0.3rem;
+    width:fit-content;
+  }
+
+  #resume-btn:hover{
+    cursor: pointer;
+    background-color:rgb(238, 74, 74);
+  }
+
+  .heading{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    white-space: nowrap;
+    font-size:2rem;
+  }
+
+  #section-2{
+    display:flex;
+    justify-content: space-around;
+
+  }
+
+
+  .section-2-sub-sec{
+    display: inline-flex;
+    width:35rem;
+    background-color: gainsboro;
+    gap:2.5rem;
+    line-height: 1.5rem;
+    border-radius:5px;
+    padding-left:1rem;
+  }
+  .section2-headings{
+
+  }
+
+
+
+  .projects__track{
+    background-color: antiquewhite;
+    display: flex;
+    gap: 4vmin;
+  }
+
+  .projects__track > .projects__image{
+    width: 40vmin;
+    height: 56vmin;
+    object-fit: cover;
+    object-position: center;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  #section-4{
+    background-color: gainsboro;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    border-radius:5px;
+  }
+
+  .contact-info{
+    display: flex;
+    margin-top:-1rem;
+  }
+
+  #mail-add{
+    display: flex;
+    text-decoration: none;
+    margin-right:0.8rem;
+  }
